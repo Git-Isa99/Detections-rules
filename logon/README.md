@@ -1,8 +1,8 @@
 # KQL Detection Rules
 
-Raccolta di query KQL per Microsoft Defender for Endpoint e Microsoft Sentinel.
+Collection of KQL queries for Microsoft Defender for Endpoint and Microsoft Sentinel.
 
-## Regole disponibili
+## Available Rules
 
 ### Logon
-- **Multiple Failed Logons**: rileva 5+ tentativi di accesso falliti dallo stesso utente/macchina entro 1 ora.
+- **Multiple Failed Logons**: Detects 5+ failed logon attempts from the same user or device within 1 hour.
