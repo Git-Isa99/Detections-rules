@@ -2,4 +2,4 @@
 | where ActionType in ("ConnectionToMaliciousIP", "ConnectionToSuspiciousIP")
 | summarize Count = count() by RemoteIP, DeviceName, InitiatingProcessFileName, bin(Timestamp, 1h)
 | sort by Count desc
-Removed Network
+
