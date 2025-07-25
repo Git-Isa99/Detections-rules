@@ -1,0 +1,5 @@
+DeviceLogonEvents
+| where LogonType == "Interactive"
+| where ActionType == "LogonFailed"
+| summarize FailedAttempts = count() by AccountName, DeviceName, bin(Timestamp, 1h)
+| where FailedAttempts >= 5
