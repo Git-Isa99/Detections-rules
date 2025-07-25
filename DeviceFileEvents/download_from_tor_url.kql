@@ -1,1 +1,7 @@
+DeviceFileEvents
+| where FileOriginUrl contains ".onion"
+| where FileName endswith ".exe" or FileName endswith ".zip" or FileName endswith ".js"
+| where InitiatingProcessFileName in~ ("chrome.exe", "msedge.exe", "firefox.exe", "iexplore.exe")
+| project Timestamp, DeviceName, FileName, FileOriginUrl, InitiatingProcessFileName, InitiatingProcessCommandLine
+| sort by Timestamp desc
 
