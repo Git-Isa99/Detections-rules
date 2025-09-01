@@ -8,7 +8,7 @@ Questo repository raccoglie i miei **appunti, esercitazioni e progetti pratici**
 
 - **SC-200 Notes** → Appunti e query KQL su Microsoft Sentinel   
 - **Incident-Reports** → Report simulati di scenari di sicurezza (phishing, ransomware, ecc.)
-- 
+  
 ---
 
 ## Obiettivi del Portfolio
