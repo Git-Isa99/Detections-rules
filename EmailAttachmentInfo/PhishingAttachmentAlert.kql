@@ -1,3 +1,8 @@
+// Detection: Phishing email with malicious attachment
+// Scenario: An internal user receives an email containing an attachment flagged as malware or phishing.
+// Goal: Identify potentially compromised attachments delivered to corporate email addresses.
+// Table: EmailAttachmentInfo
+
 EmailAttachmentInfo
 | where ThreatTypes has_any ("Malware", "Phish")
 | where RecipientEmailAddress endswith "@contoso.com"
