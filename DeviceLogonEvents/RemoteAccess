@@ -1,0 +1,6 @@
+DeviceLogonEvents
+| where LogonType == "RemoteAccess"
+| where RemoteIPType == "Public"
+| where AccountDomain == "contoso.com"
+| where not(DeviceName has "contoso" or RemoteDeviceName has "contoso")
+| project Timestamp, DeviceName, RemoteDeviceName, RemoteIP, AccountName, AccountDomain, LogonType
