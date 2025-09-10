@@ -1,27 +1,18 @@
-Ciao, sono Isabel.  
-Sto completando una laurea in **Lettere**, ma ho scoperto una forte passione per l’**informatica** e in particolare per la **cybersecurity**.  
-Questo repository raccoglie i miei **appunti, esercitazioni e progetti pratici** mentre studio per la certificazione Microsoft (SC-200) e altre risorse di sicurezza informatica.
+Hello, I'm Isabel. I'm currently pursuing a degree in Humanities, but I've discovered a strong passion for computer science—especially cybersecurity. This repository collects my notes, exercises, and hands-on projects as I prepare for the Microsoft SC-200 certification and explore other cybersecurity resources.
 
----
+## Contents
+SC-200 Notes → Notes and KQL queries related to Microsoft Sentinel
 
-## Contenuti
+Incident Reports → Simulated reports of security scenarios (phishing, ransomware, etc.)
 
-- **SC-200 Notes** → Appunti e query KQL su Microsoft Sentinel   
-- **Incident-Reports** → Report simulati di scenari di sicurezza (phishing, ransomware, ecc.)
-  
----
+## Portfolio Goals
+Document my learning journey in cybersecurity
 
-## Obiettivi del Portfolio
+Create practical and concrete examples to showcase to future recruiters
 
-- Documentare il mio percorso di formazione in cybersecurity  
-- Creare esempi concreti e pratici da mostrare a futuri recruiter  
-- Condividere risorse utili anche per chi inizia in questo settore  
+Share useful resources for others starting out in this field
 
----
+## Technologies and Tools I'm Learning
+Microsoft Sentinel (SIEM) & KQL
 
-## Tecnologie e strumenti che sto imparando
-
-- Microsoft Sentinel (SIEM) & KQL  
-- Microsoft Defender 
-
----
+Microsoft Defender
