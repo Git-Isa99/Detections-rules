@@ -1,8 +1,0 @@
-SigninLogs
-| where Status.errorCode == 500121
-    or Status.failureReason has "denied"
-| where TimeGenerated > ago(1h)
-| summarize Count = count() by UserPrincipalName, IPAddress, AppDisplayName, bin(TimeGenerated, 5m)
-| where Count >= 1
-| sort by Count desc
-
