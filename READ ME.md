@@ -1,4 +1,4 @@
-Hello, I'm Isabel. I'm currently pursuing a degree in Humanities, but I've discovered a strong passion for computer science—especially cybersecurity. This repository collects my notes, exercises, and hands-on projects as I prepare for the Microsoft SC-200 certification and explore other cybersecurity resources.
+Hello, I'm Isabel. I'm currently pursuing a degree in Humanities, but I've discovered a strong passion for computer science especially cybersecurity. This repository collects my notes, exercises, and hands-on projects as I prepare for the Microsoft SC-200 certification and explore other cybersecurity resources.
 
 ## Contents
 SC-200 Notes → Notes and KQL queries related to Microsoft Sentinel
