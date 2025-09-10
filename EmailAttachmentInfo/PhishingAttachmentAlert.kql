@@ -1,0 +1,4 @@
+EmailAttachmentInfo
+| where ThreatTypes has_any ("Malware", "Phish")
+| where RecipientEmailAddress endswith "@contoso.com"
+| project Timestamp, RecipientEmailAddress, SenderFromAddress, FileName, FileType, ThreatTypes, ThreatNames, SHA256, DetectionMethods
