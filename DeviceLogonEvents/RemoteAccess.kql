@@ -1,3 +1,8 @@
+// Detection: Remote logon using corporate credentials from unmanaged device
+// Scenario: A user logs in remotely (e.g., via RDP) using enterprise credentials from a device that is not recognized as corporate-managed.
+// Goal: Identify potential unauthorized access attempts from personal or non-corporate devices.
+// Table: DeviceLogonEvents
+
 DeviceLogonEvents
 | where LogonType == "RemoteAccess"
 | where RemoteIPType == "Public"
